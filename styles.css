@@ -1,0 +1,65 @@
+/* General Website Style rules */
+body {
+    background-color: #323437;
+    color: #646669;
+    font-family: "IBM Plex Mono", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    padding: 20px; /* Add padding to body for some margin */
+    position: relative;
+}
+
+#timer {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #e2b714;
+    font-size: 1.3em;
+}
+
+div {
+    margin: 10px 0; /* Add margin to all divs for spacing */
+}
+
+.normal {
+    color: #646669;
+}
+
+.correct {
+    color: #d1d0c5;
+}
+
+.incorrect {
+    color: #ca4754;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 600px; /* Optional: limit the max width of stats */
+}
+
+#stats > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    color: #646669;
+    font-size: 2.5em;
+}
+
+.bottom {
+    color: #e2b714;
+    font-size: 3em;
+}
+
+button {
+    margin-top: 20px; /* Add margin to button for spacing */
+}
